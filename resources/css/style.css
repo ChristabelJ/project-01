@@ -43,8 +43,14 @@ a{
     height: 100vh;
     color: #fff;
 }
+#showcase-about{
+    background: url('../img/about-us.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
 
-#showcase .show-content{
+}
+#showcase .show-content,
+#showcase-about .show-content{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -55,19 +61,21 @@ a{
 	position: absolute;
 	top: 50px;
 	left: 0;
-	right: 0;
+    right: 0;
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.4);
 }
 
-#showcase a{
+#showcase a,
+#showcase-about a{
     text-decoration: none;
 	color: rgb(0, 255, 157);
 	padding: 0.75rem;
 	margin: 0 0.25rem;
 
 }
-#showcase a:hover{
+#showcase a:hover,
+#showcase-about a:hover{
 
 	background: #93cb52;
 	border-radius: 5px;
